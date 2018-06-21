@@ -1,0 +1,17 @@
+Package: salinitykayak
+Type: Package
+Title: For use with Wrangling Salinity Data
+Version: 0.1.0
+Author: person("Erin", "Reilly", email = "ereilly@umces.edu",
+  role = c("aut", "cre"))
+Maintainer: The package maintainer <ereilly@umces.edu>
+Description: This package uploads GPX and excel data, formats it, joins it and then
+    writes it to an ESRI shapefile for use with the Dominion Kayak Salinity Survey Data.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    sf,
+    tidyverse,
+    tmaptools
+RoxygenNote: 6.0.1
